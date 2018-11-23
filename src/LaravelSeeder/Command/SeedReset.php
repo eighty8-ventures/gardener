@@ -5,6 +5,9 @@ namespace Eighty8\LaravelSeeder\Command;
 use Illuminate\Console\ConfirmableTrait;
 use Symfony\Component\Console\Input\InputOption;
 
+/**
+ * @codeCoverageIgnore
+ */
 class SeedReset extends AbstractSeedMigratorCommand
 {
     use ConfirmableTrait;

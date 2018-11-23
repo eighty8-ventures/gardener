@@ -5,6 +5,9 @@ namespace Eighty8\LaravelSeeder\Command;
 use Illuminate\Support\Collection;
 use Symfony\Component\Console\Input\InputOption;
 
+/**
+ * @codeCoverageIgnore
+ */
 class SeedStatus extends AbstractSeedMigratorCommand
 {
     /**

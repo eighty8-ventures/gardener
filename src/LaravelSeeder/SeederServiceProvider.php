@@ -17,6 +17,9 @@ use Eighty8\LaravelSeeder\Repository\SeederRepositoryInterface;
 use Illuminate\Support\Composer;
 use Illuminate\Support\ServiceProvider;
 
+/**
+ * @codeCoverageIgnore
+ */
 class SeederServiceProvider extends ServiceProvider
 {
     const SEEDERS_CONFIG_PATH = __DIR__ . '/../../config/seeders.php';

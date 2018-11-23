@@ -7,6 +7,9 @@ use Illuminate\Database\Console\Migrations\MigrateMakeCommand;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 
+/**
+ * @codeCoverageIgnore
+ */
 class SeedMake extends MigrateMakeCommand
 {
     /**

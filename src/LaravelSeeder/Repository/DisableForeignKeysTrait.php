@@ -4,6 +4,9 @@ namespace Eighty8\LaravelSeeder\Repository;
 
 use DB;
 
+/**
+ * @codeCoverageIgnore
+ */
 trait DisableForeignKeysTrait
 {
     private $commands = [

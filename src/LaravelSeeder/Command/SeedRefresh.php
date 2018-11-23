@@ -6,6 +6,9 @@ use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
 use Symfony\Component\Console\Input\InputOption;
 
+/**
+ * @codeCoverageIgnore
+ */
 class SeedRefresh extends Command
 {
     use ConfirmableTrait;

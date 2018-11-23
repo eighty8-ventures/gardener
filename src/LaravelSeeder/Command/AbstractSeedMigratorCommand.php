@@ -36,6 +36,8 @@ abstract class AbstractSeedMigratorCommand extends Command
 
     /**
      * Prepares the migrator for usage.
+     *
+     * @codeCoverageIgnore
      */
     protected function prepareMigrator(): void
     {
@@ -47,6 +49,8 @@ abstract class AbstractSeedMigratorCommand extends Command
 
     /**
      * Prepares the repository for usage.
+     *
+     * @codeCoverageIgnore
      */
     protected function connectToRepository(): void
     {
@@ -81,6 +85,8 @@ abstract class AbstractSeedMigratorCommand extends Command
 
     /**
      * Sets up the environment for the migrator.
+     *
+     * @codeCoverageIgnore
      */
     protected function resolveEnvironment(): void
     {
@@ -113,6 +119,8 @@ abstract class AbstractSeedMigratorCommand extends Command
 
     /**
      * Resolves the paths for the migration files to run the migrator against.
+     *
+     * @codeCoverageIgnore
      */
     protected function resolveMigrationPaths(): void
     {
@@ -139,6 +147,8 @@ abstract class AbstractSeedMigratorCommand extends Command
 
     /**
      * Resolves the options for the migrator.
+     *
+     * @codeCoverageIgnore
      */
     protected function resolveMigrationOptions(): void
     {

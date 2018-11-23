@@ -7,6 +7,9 @@ use Eighty8\LaravelSeeder\Repository\SeederRepositoryInterface;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 
+/**
+ * @codeCoverageIgnore
+ */
 class SeedInstall extends Command
 {
     /**
