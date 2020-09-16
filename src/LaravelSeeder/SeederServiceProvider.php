@@ -90,7 +90,7 @@ class SeederServiceProvider extends ServiceProvider
         });
 
         $this->app->singleton(SeederMigrationCreator::class, function ($app) {
-            return new SeederMigrationCreator($app['files']);
+            return new SeederMigrationCreator($app['files'], $app->basePath('stubs'));
         });
     }
 
